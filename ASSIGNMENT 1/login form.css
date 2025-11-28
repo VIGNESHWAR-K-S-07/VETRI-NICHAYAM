@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(151, 146, 75)
+}
+
+div{
+    background-color: rgb(194, 179, 185);
+    width:550px; 
+    margin: 5% 30%;
+    border-radius: 10px;
+}
+form{
+    border: 1px double black;
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    border-radius: 6px;
+    color:black;
+    margin:10px;
+}
+
+#userNumber,#userEmail{
+    margin-left: 40px;
+}
+
+#userPassword{
+    margin-left: 20px;
+}
+
+#userDOB{
+    margin-right: 30px;
+    padding-left:0px;
+}
+
+#userCity{
+    margin-right: 15px;
+   
+}
+
+textarea{
+    border-radius: 6px;
+    color:black;
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+select{
+    border-radius: 6px;
+    color:black;
+    margin-top:10px;
+    margin-right: 60px;
+}
+
+button{
+    margin:10px; 
+    background-color:chocolate; 
+    color:black;
+}
