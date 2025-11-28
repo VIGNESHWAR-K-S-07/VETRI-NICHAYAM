@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="login form.css">
+</head>
+<body>
+    <div>
+        <form> 
+        <h1>Registration form</h1>
+        <label for="userName">First Name: </label>
+            <input type="text" id="userName" >
+        <br>
+        <label for="userNumber">Phone: </label>
+            <input type="number" id="userNumber" >
+        <br>
+        <label for="userEmail">Email: </label>
+            <input type="email" id="userEmail">
+        <br>
+        <label for="userPasword">Password: </label>
+            <input type="password" id="userPassword">
+        <br>
+        
+        <label for="userDOB">DOB: </label>
+            <input type="date"  id="userDOB">
+        <br>
+        
+        <label for="userGender" id="gender">Gender: </label>
+            <input type="radio" name="gender" value="male" style="margin:10px; margin-left:20px;padding:10px">male
+            <input type="radio" name="gender" value="female" style="margin:10px;">female
+            <input type="radio" name="gender" value="others" style="margin:10px;">others
+        <br>
+        <label for="userAddres"> Address: </label>
+            <textarea type="text"></textarea>
+        <br>
+        <label for="userCity" id="UserCity">City: </label>
+            <select type="text" >
+                <option>coimbatore</option>
+                <option>Chennai</option>
+                <option>Madurai</option>
+            </select>
+        <br>
+        <label for="userPhoto" style="margin-left:55px;">Upload profile: </label>
+            <input type="file" style="margin:10px;">
+        <br>
+        
+
+        <label for="userCheckbox">
+            <input type="checkbox"> I accept to the terms
+        </label><br>
+        <button type="submit">Register</button>
+    </form>
+    </div>
+    
+</body>
+</html>
